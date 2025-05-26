@@ -7,3 +7,7 @@ router.get ("/id",
     login.required,
     notifications.getNotificacoes
 );
+
+
+
+module.exports = router;
